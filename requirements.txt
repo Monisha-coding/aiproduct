@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+langdetect
+spacy
+transformers
+torch
+sentence-transformers
+pyspellchecker
+rapidfuzz
