@@ -121,7 +121,7 @@ def get_validator_llm():
         try:
             validator_llm = {
                 "base_url": "http://localhost:11434/api/generate",
-                "model": "qwen2.5:3b"
+                "model": "qwen2.5:7b"
             }
         except Exception:
             validator_llm = False

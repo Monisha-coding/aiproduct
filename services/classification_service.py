@@ -32,7 +32,7 @@ def get_ollama_classifier():
         try:
             ollama_classifier = {
                 "base_url": "http://localhost:11434/api/generate",
-                "model": "qwen2.5:3b"
+                "model": "qwen2.5:7b"
             }
         except Exception:
             ollama_classifier = False

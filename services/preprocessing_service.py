@@ -223,7 +223,7 @@ def get_rewriter():
         try:
             rewriter = {
                 "base_url": "http://localhost:11434/api/generate",
-                "model": "qwen2.5:3b"
+                "model": "qwen2.5:7b"
             }
         except Exception:
             rewriter = False
